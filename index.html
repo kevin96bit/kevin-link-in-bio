@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link-in-Bio</title>
+    <meta name="description" content="All my favorite links and vibes in one place." />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- CSS separato -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="min-h-screen text-white flex flex-col items-center justify-start py-12 px-4">
+    <!-- Contenitore gocce (dietro tutto) -->
+    <div id="drip-container"></div>
+
+    <!-- HEADER -->
+    <header id="header" class="text-center mb-8 opacity-0 translate-y-3 transition-all duration-700">
+      <img src="zombie.png" alt="zombie avatar"
+        class="avatar-glow w-28 h-28 rounded-full mx-auto border-4 border-slate-700 object-cover transition-all duration-500" />
+      <h1 class="text-3xl font-bold mt-4">Kevin</h1>
+
+      <hr class="divider" />
+
+      <p class="text-slate-400 mt-1 text-center">
+        Just sharing what I think and love <br />
+        music, ideas, and maybe some progress.
+      </p>
+
+      <hr class="divider" />
+    </header>
+
+    <!-- LINKS -->
+    <main class="w-full max-w-md">
+      <section id="links" class="flex flex-col gap-4"></section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="mt-10 text-slate-500 text-sm text-center opacity-0 translate-y-3 transition-all duration-700">
+      &copy; <span id="year"></span> • Built by Myself • 
+    </footer>
+
+    <!-- Script principali -->
+    <script src="script.js"></script>
+    <script src="drops.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+[
+  { "name": "My Blog ", "url": "https://tuoblog.com", "icon": "pen-square" },
+  { "name": "My SoundCloud", "url": "https://soundcloud.com/official-basstorm-cloud", "icon": "headphones" },
+  { "name": "Kev’s Gym Playlist on Spotify", "url": "https://open.spotify.com/playlist/2WMSvE5qX5UFr3Zd4QoNT1?si=85d8e93e56ff409d", "icon": "music" },
+  { "name": "Email", "url": "mailto:kevin96bit@gmail.com", "icon": "mail" }
+]
